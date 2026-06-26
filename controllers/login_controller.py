@@ -4,7 +4,7 @@ users = {
     "gael" : "12345"
 }
 # Decorator 
-# Altera o comportamento da função sem alterar o corpo dela
+# Altera o comportamento da função sem alterar   o corpo dela
 def login_validation(username: str, password: str) -> bool:
     # Validação se o cara não deixou em branco qualquer coisa
     if username == '' or password == '':

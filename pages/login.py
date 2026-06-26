@@ -16,8 +16,9 @@ with st.form('login'):
     st.title("Login")
     st.caption('Entre com suas credenciais')
     st.space('xxsmall')
+    #Inputs para login
     user = st.text_input('**ID**')
-    password = st.text_input('**Senha**')
+    password = st.text_input('**Senha**', type="password")
 
     btn_button = st.form_submit_button('Entrar', use_container_width=True, type='primary', icon=':material/mail:')
     st.space('small')
